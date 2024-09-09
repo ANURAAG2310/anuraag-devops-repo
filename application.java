@@ -24,6 +24,7 @@ public class GFG {
 
 		return result;
 	}
+
 #feature 2.2 chages done by vivek in nov 2023
 class ComplexNumber {
  
@@ -49,6 +50,31 @@ class ComplexNumber {
     public complex add(ComplexNumber, ComplexNumber);
 }
 #end of feature 2.2 changes done by vivek in 2023
+
+#feature2.1 making some changes by the developer vivek for the HDFC project in nov 2023
+ public static String addBinary(String x, String y)
+    {
+        int i = x.length() - 1, j = y.length() - 1;
+        int carry = 0;
+        StringBuilder result = new StringBuilder();
+        while (i >= 0 || j >= 0) {
+            int sum = carry;
+            if (i >= 0) {
+                sum += x.charAt(i) - '0';
+            }
+            if (j >= 0) {
+                sum += y.charAt(j) - '0';
+            }
+            if (sum == 0 || sum == 1) {
+                result.append(sum);
+                carry = 0;
+            }
+            else if (sum == 2) {
+                result.append("0");
+                carry = 1;
+            }
+#feature2.1 end of code by vivek
+
 	// Main driver method
 	public static void main(String args[])
 	{
