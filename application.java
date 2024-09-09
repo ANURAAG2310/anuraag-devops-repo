@@ -24,6 +24,33 @@ public class GFG {
 
 		return result;
 	}
+
+#feature 2.2 chages done by vivek in nov 2023
+class ComplexNumber {
+ 
+    // variables to hold real and imaginary part of complex
+    // number
+    int real, image;
+ 
+    // Constructor which will be used while creating complex
+    // number
+    public ComplexNumber(int r, int i)
+    {
+        this.real = r;
+        this.image = i;
+    }
+ 
+    // function to print real number
+    public void showC()
+    {
+        System.out.println(this.real + " +i " + this.image);
+    }
+ 
+    // we will implement  this function for addition
+    public complex add(ComplexNumber, ComplexNumber);
+}
+#end of feature 2.2 changes done by vivek in 2023
+
 #feature2.1 making some changes by the developer vivek for the HDFC project in nov 2023
  public static String addBinary(String x, String y)
     {
@@ -47,6 +74,7 @@ public class GFG {
                 carry = 1;
             }
 #feature2.1 end of code by vivek
+
 	// Main driver method
 	public static void main(String args[])
 	{
